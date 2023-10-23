@@ -1,0 +1,35 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/dotify-frontend/node_modules
+/dotify-frontend/.pnp
+/dotify-frontend/.pnp.js
+
+# testing
+/dotify-frontend/coverage
+
+# next.js
+/dotify-frontend/.next/
+/dotify-frontend/out/
+
+# production
+/dotify-frontend/build
+
+# misc
+/dotify-frontend/.DS_Store
+/dotify-frontend/*.pem
+
+# debug
+/dotify-frontend/npm-debug.log*
+/dotify-frontend/yarn-debug.log*
+/dotify-frontend/yarn-error.log*
+
+# local env files
+/dotify-frontend/.env*.local
+
+# vercel
+/dotify-frontend/.vercel
+
+# typescript
+/dotify-frontend/*.tsbuildinfo
+/dotify-frontend/next-env.d.ts
